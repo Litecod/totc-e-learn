@@ -27,7 +27,7 @@ const page = () => {
   }
 
   return (
-    <div className="flex justify-betwen md:p-[2rem] gap-[2rem] text-[#000] overflow-x-hidden">
+    <div className="flex justify-betwen md:p-[2rem] gap-[2rem] text-[#000] overflow-x-hidden h-[100vh]">
       <Image
         src={img}
         alt=""
