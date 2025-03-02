@@ -11,7 +11,7 @@ import Toct from "@/components/Toct";
 
 export default function Home() {
   return (
-    <div className="max-w-[1550px] xl:mx-auto ">
+    <div className="max-w-[1550px] xl:mx-auto text-[#000]">
       <Navbar />
       <Hero />
       <CountUps />
