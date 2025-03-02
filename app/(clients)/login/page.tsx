@@ -48,7 +48,7 @@ const page = () => {
           </div>
         </form>
         <div className="px-[2rem] md:px-0">
-        <Link href="/" className="w-[15rem] border-[2px] bg-[#49BBBD] px-[1rem] py-[0.8rem] rounded-[15rem] text-center text-white float-right mt-[2rem]">Login</Link>
+        <Link href="/" className="w-full md:w-[15rem] border-[2px] bg-[#49BBBD] px-[1rem] py-[0.8rem] rounded-[15rem] text-center text-white float-right mt-[2rem]">Login</Link>
         </div>
         
       </div>

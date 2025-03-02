@@ -58,7 +58,7 @@ const page = () => {
         <div className="px-[2rem] md:px-0">
           <Link
             href="/"
-            className="w-[15rem] border-[2px] bg-[#49BBBD] px-[1rem] py-[0.8rem] rounded-[15rem] text-center text-white float-right mt-[2rem]"
+            className="w-[100%] md:w-[15rem] border-[2px] bg-[#49BBBD] px-[1rem] py-[0.8rem] rounded-[15rem] text-center text-white float-right mt-[2rem]"
           >
             Register
           </Link>
