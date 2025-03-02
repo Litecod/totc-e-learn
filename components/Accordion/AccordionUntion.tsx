@@ -35,7 +35,7 @@ const AccordionUnction = () => {
     <div className="z-10">
       <div className="">
         <h1 className="text-[1.5rem] md:text-[2rem] font-medium">Explore Course</h1>
-        <p className="text-[#0000008A]">Ut sed eros finibus, placerat orci id, dapibus.</p>
+        <p className="text-[#393939]">Ut sed eros finibus, placerat orci id, dapibus.</p>
       </div>
       <div className=" flex justify-between mb-[1.5rem] items-center mt-[2rem] md:mt-[8rem]">
         <h1 className="font-medium text-[1.5rem] flex items-center md:gap-4"><IoIosColorPalette className="text-[#0000008A]"/> Lorem Ipsum</h1>

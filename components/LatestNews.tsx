@@ -23,7 +23,7 @@ const LatestNews = () => {
                     <Image src={img} alt="" />
                     <Link href={"/"} className=" px-[1rem] py-[0.2rem] text-[0.8rem] bg-[#49BBBD] text-[#fff] max-w-[4rem] rounded-3xl">New</Link>
                     <h2 className="text-[1.4rem] font-medium ">Class adds $30 million to its balance sheet for a Zoom-friendly edtech solution</h2>
-                    <div className="flex flex-col text-[#0000008a] gap-[1rem]">
+                    <div className="flex flex-col text-[#393939] gap-[1rem]">
                         <p>Class, launched less than a year ago by Blackboard co-founder Michael Chasen, integrates exclusively...</p>
                         <Link href={"/"} className="underline"> Read more</Link>
                     </div>

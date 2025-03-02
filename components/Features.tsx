@@ -15,7 +15,7 @@ const Features = () => {
         <h1 className="text-[1.5rem] md:text-[1.7rem] font-medium text-[#2F327D]">
           Our <span className="text-[#00CBB8]">Features</span>
         </h1>
-        <h5 className="md:w-[70%] lg:w-[62%] mx-auto text-[0.7rem] md:text-[1rem] text-[#696984]">
+        <h5 className="md:w-[70%] lg:w-[62%] mx-auto text-[0.7rem] md:text-[1rem] text-[#393939]">
           This very extraordinary feature, can make learning activities more
           efficient
         </h5>
@@ -34,7 +34,7 @@ const Features = () => {
               <div className="shadow-sm shadow-[#00000050] rounded-full py-[0.7rem] px-[0.7rem] ">
                 <Image src={user} alt="User" className="w-[1.8rem] " />
               </div>
-              <p className="text-[#696984] md:text-[0.8rem] lg:text-[1rem]">
+              <p className="text-[#393939] md:text-[0.8rem] lg:text-[1rem]">
                 Teachers don&apos;t get lost in the grid view and have a dedicated
                 Podium space.
               </p>
@@ -43,7 +43,7 @@ const Features = () => {
               <div className="shadow-sm shadow-[#00000050] rounded-full py-[0.7rem] px-[0.7rem] ">
                 <Image src={user1} alt="User" className="w-[1.8rem] " />
               </div>
-              <p className="text-[#696984] md:text-[0.8rem] lg:text-[1rem]">
+              <p className="text-[#393939] md:text-[0.8rem] lg:text-[1rem]">
                 TA&apos;s and presenters can be moved to the front of the class.
               </p>
             </div>
@@ -51,7 +51,7 @@ const Features = () => {
               <div className="shadow-sm shadow-[#00000050] rounded-full py-[0.7rem] px-[0.7rem] ">
                 <Image src={user2} alt="User" className="w-[1.8rem] " />
               </div>
-              <p className="text-[#696984] md:text-[0.8rem] lg:text-[1rem]">
+              <p className="text-[#393939] md:text-[0.8rem] lg:text-[1rem]">
                 Teachers can easily see all students and class data at one time.
               </p>
             </div>
@@ -64,7 +64,7 @@ const Features = () => {
             Tools
             <span className="text-[#2F327D]">For Teachers And Learners</span>
           </h1>
-          <h5 className="text-[0.7rem] md:text-[0.8rem] lg:text-[1rem] text-[#696984] md:max-w-[28rem]">
+          <h5 className="text-[0.7rem] md:text-[0.8rem] lg:text-[1rem] text-[#393939] md:max-w-[28rem]">
             TOTC&apos;s school management software helps traditional and online
             schools manage scheduling, attendance, payments and virtual
             classrooms all in one secure cloud-based system.
@@ -82,7 +82,7 @@ const Features = () => {
           <h1 className="text-[1.5rem] md:text-[1.2rem] lg:text-[1.7rem] font-medium  text-[#2F327D] md:max-w-[15rem]">
             Assessments, <span className="text-[#00CBB8] ">Quizzes,</span> Tests
           </h1>
-          <h5 className="text-[0.7rem] md:text-[0.8rem] lg:text-[1rem] text-[#696984] md:max-w-[28rem]">
+          <h5 className="text-[0.7rem] md:text-[0.8rem] lg:text-[1rem] text-[#393939] md:max-w-[28rem]">
             Easily launch live assignments, quizzes, and tests. Student results
             are automatically entered in the online gradebook.
           </h5>
@@ -97,7 +97,7 @@ const Features = () => {
             Class Management
             <span className="text-[#2F327D]"> Tools for Educators</span>
           </h1>
-          <h5 className="text-[0.7rem] md:text-[0.8rem] lg:text-[1rem] text-[#696984] md:max-w-[28rem]">
+          <h5 className="text-[0.7rem] md:text-[0.8rem] lg:text-[1rem] text-[#393939] md:max-w-[28rem]">
             Class provides tools to help run and manage the class such as Class
             Roster, Attendance, and more. With the Gradebook, teachers can
             review and grade tests and quizzes in real-time.
@@ -116,7 +116,7 @@ const Features = () => {
             One-on-One
             <span className="text-[#00CBB8]"> Discussions</span>
           </h1>
-          <h5 className="text-[0.7rem] md:text-[0.8rem] lg:text-[1rem] text-[#696984] md:max-w-[28rem]">
+          <h5 className="text-[0.7rem] md:text-[0.8rem] lg:text-[1rem] text-[#393939] md:max-w-[28rem]">
             Teachers and teacher assistants can talk with students privately
             without leaving the Zoom environment.
           </h5>

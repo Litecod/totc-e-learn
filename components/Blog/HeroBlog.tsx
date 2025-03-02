@@ -12,7 +12,7 @@ const HeroBlog = () => {
         <h1 className="text-[1.5rem] md:text-[1.2rem] lg:text-[2.5rem] font-medium text-[#2F327D] ">
           Why Swift UI Should Be on the Radar of Every Mobile Developer
         </h1>
-        <h5 className="text-[0.7rem] md:text-[0.8rem] lg:text-[1rem] text-[#696984] ">
+        <h5 className="text-[0.7rem] md:text-[0.8rem] lg:text-[1rem] text-[#393939] ">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempos Lorem ipsum dolor sitamet, consectetur adipiscing elit,
           sed do eiusmod tempor

@@ -39,14 +39,14 @@ const Toct = () => {
         <h1 className="text-[1.5rem] md:text-[2rem] font-medium text-[#2F327D]">
           What is <span className="text-[#00CBB8]">TOTC?</span>
         </h1>
-        <h5 className="md:w-[70%] lg:w-[62%] mx-auto text-[0.7rem] md:text-[1.2rem] text-[#696984]">
+        <h5 className="md:w-[70%] lg:w-[62%] mx-auto text-[0.7rem] md:text-[1.2rem] text-[#393939]">
           TOTC is a platform that allows educators to create online classes
           whereby they can store the course materials online; manage
           assignments, quizzes and exams; monitor due dates; grade results and
           provide students with feedback all in one place.
         </h5>
       </div>
-      <div className="mt-[5rem] flex flex-col md:flex-row justify-between max-w-[70rem] mx-auto">
+      <div className=" mt-[3rem] md:mt-[5rem] flex flex-col md:flex-row justify-between max-w-[70rem] mx-auto">
         <motion.div
           ref={ref}
           variants={{
@@ -103,14 +103,14 @@ const Toct = () => {
             Everything you can do in a physical classroom,
             <span className="text-[#00CBB8]">you can do with TOTC</span>
           </h1>
-          <h5 className="text-[0.7rem] md:text-[0.8rem] lg:text-[1rem] text-[#696984] max-w-[35rem]">
+          <h5 className="text-[0.7rem] md:text-[0.8rem] lg:text-[1rem] text-[#393939] max-w-[35rem]">
             TOTC&apos;s school management software helps traditional and online
             schools manage scheduling, attendance, payments and virtual
             classrooms all in one secure cloud-based system.
           </h5>
           <Link
             href="/"
-            className="underline text-[#0000005f] mt-5 text-center md:text-left"
+            className="underline text-[#393939] mt-5 text-center md:text-left"
           >
             learn more
           </Link>

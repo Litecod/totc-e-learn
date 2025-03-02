@@ -76,14 +76,14 @@ export default function Carousel() {
                 <Image src={slide.imgaeurl} alt="image" />
                 <span>{slide.names}</span>
               </div>
-              <p className="text-[#696984]">{slide.detail}</p>
+              <p className="text-[#393939]">{slide.detail}</p>
               <div className="flex justify-between">
-                <Link href="/" className="underline text-[#696984]">
+                <Link href="/" className="underline text-[#393939]">
                   Read More
                 </Link>
                 <div className="flex gap-3 items-center">
                   <FaEye className="text-[#49BBBD]"/>
-                  <span className="text-[#696984]">251,232</span>
+                  <span className="text-[#393939]">251,232</span>
                 </div>
               </div>
             </div>

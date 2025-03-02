@@ -14,7 +14,7 @@ const CountUps = () => {
           ultrices eu ornare tristique vel nisl orci.
         </h5>
       </div>
-      <div className="flex flex-wrap justify-between mt-[2rem] md:mt-[4rem] ">
+      <div className="flex flex-col gap-5 sm:gap-0 sm:flex-wrap md:flex-row justify-between mt-[2rem] md:mt-[4rem] ">
         <div className="">
           <p className="text-[3rem] md:text-[4rem] text-center ">
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#136CB5] to-[#49BBBD]">

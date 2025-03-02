@@ -55,7 +55,7 @@ const Testimonial = () => {
             <h3 className="text-[1.2rem]">TESTIMONIAL</h3>
           </div>
           <h1 className="text-[3rem] text-[#2F327D] mt-[2.5rem]">What They Say?</h1>
-          <div className="text-[#0009] mt-[2.5rem] flex flex-col gap-4">
+          <div className="text-[#393939] mt-[2.5rem] flex flex-col gap-4">
             <p>TOTC has got more than 100k positive ratings from our users around the world.</p>
             <p>Some of the students and teachers were greatly helped by the Skilline.</p>
             <p>Are you too? Please give your assessment</p>

@@ -12,14 +12,14 @@ const Everthing = () => {
             Everything you can do in a physical classroom,
             <span className="text-[#00CBB8]">you can do with TOTC</span>
           </h1>
-          <h5 className="text-[0.7rem] md:text-[0.8rem] lg:text-[1rem] text-[#696984] max-w-[35rem]">
+          <h5 className="text-[0.7rem] md:text-[0.8rem] lg:text-[1rem] text-[#393939] max-w-[35rem]">
             TOTC&apos;s school management software helps traditional and online
             schools manage scheduling, attendance, payments and virtual
             classrooms all in one secure cloud-based system.
           </h5>
           <Link
             href="/"
-            className="underline text-[#0000005f] mt-5 text-center md:text-left"
+            className="underline text-[#393939] mt-5 text-center md:text-left"
           >
             learn more
           </Link>

@@ -7,7 +7,7 @@ const AboutPage = () => {
     return (
         <div className="w-full mx-auto px-[0.8rem] sm:px-[3rem] lg:px-[5rem] py-[2rem] md:py-[4rem] pt-[3rem] pb-[2rem] md:pb-[5rem] flex flex-col gap-6 mt-[1rem]">
             <h1 className="text-[2rem] font-medium text-[#2F327D]">Why Swift UI Should Be on the Radar of Every Mobile Developer</h1>
-            <div className=" text-[#26262691] flex flex-col gap-4 ">
+            <div className=" text-[#393939] flex flex-col gap-4 ">
                 <p>TOTC is a platform that allows educators to create online classes whereby they can store the course materials online; manage assignments, quizzes and exams; monitor due dates; grade results and provide students with feedback all in one place.</p>
                 <p>TOTC is a platform that allows educators to create online classes whereby they can store the course materials online; manage assignments, quizzes and exams; monitor due dates; grade results and provide students with feedback all in one place. TOTC is a platform that allows educators to create online classes whereby they can store the course materials online; manage assignments, quizzes and exams; monitor due dates; grade results and provide students with feedback all in one place. TOTC is a platform</p>
                 <p>TOTC is a platform that allows educators to create online classes whereby they can store the course materials online; manage assignments, quizzes and exams; monitor due dates; grade results and provide students with feedback all in one place. TOTC is a platform that allows educators to create online classes whereby they can store the course materials online; manage</p>

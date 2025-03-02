@@ -23,10 +23,10 @@ const Navbar = () => {
   ];
   return (
     <div className="relative">
-      <header className="flex justify-between items-center px-[0.8rem] sm:px-[3rem] lg:px-[5rem] bg-[#49BBBD] fixed w-full py-[0.5rem] z-50">
-      <Image src={logo} alt="Logo" className="" />
+      <header className="flex justify-between items-center px-[0.8rem] sm:px-[3rem] lg:px-[5rem] bg-[#48b4b6] fixed w-full py-[0.5rem] z-50">
+      <Image src={logo} alt="Logo" className=" w-[5rem] md:w-[7rem]" />
       <ul
-        className={`absolute md:relative top-[6rem] md:top-0 w-[80%] md:w-auto bg-[#49BBBD] md:bg-[transparent] flex flex-col md:flex-row gap-[1.2rem] lg:gap-[3rem] z-10 after:content-['*'] after:absolute after:-inset-1 after:block after:bg-[#8d8d8d47] after:w-[126%] md:after:w-0 after:top-0 after:h-[100%] md:after:h-0 after:-z-10  duration-300  ${
+        className={`absolute md:relative top-[4.7rem] md:top-0 w-[80%] md:w-auto bg-[#49BBBD] md:bg-[transparent] flex flex-col md:flex-row gap-[1.2rem] lg:gap-[3rem] z-10 after:content-['*'] after:absolute after:-inset-1 after:block after:bg-[#8d8d8d47] after:w-[126%] md:after:w-0 after:top-0 after:h-[100%] md:after:h-0 after:-z-10  duration-300  ${
           active ? "left-[-50rem] md:left-0" : "left-0 md:left-0"
         }`}
       >
@@ -52,13 +52,13 @@ const Navbar = () => {
 
       <TiThMenuOutline
         onClick={() => setActive(!active)}
-        className="text-[#ffff] text-[2rem] cursor-pointer hover:text-[#00FFF0] duration-300 md:hidden"
+        className="text-[#fff] text-[2rem] cursor-pointer hover:text-[#b6feff] duration-300 md:hidden"
       />
     </header>
-    <header className="flex justify-between items-center px-[0.8rem] sm:px-[3rem] lg:px-[5rem] bg-[#49BBBD] py-[0.5rem]">
-      <Image src={logo} alt="Logo" className="" />
+    <header className="flex justify-between items-center px-[0.8rem] sm:px-[3rem] lg:px-[5rem] bg-[#48b4b6] py-[0.5rem] z-50">
+      <Image src={logo} alt="Logo" className=" w-[5rem] md:w-[7rem]" />
       <ul
-        className={`absolute md:relative top-[6rem] md:top-0 w-[80%] md:w-auto bg-[#49BBBD] md:bg-[transparent] flex flex-col md:flex-row gap-[1.2rem] lg:gap-[3rem] z-10 after:content-['*'] after:absolute after:-inset-1 after:block after:bg-[#8d8d8d47] after:w-[126%] md:after:w-0 after:top-0 after:h-[100%] md:after:h-0 after:-z-10  duration-300  ${
+        className={`absolute md:relative top-[4.7rem] md:top-0 w-[80%] md:w-auto bg-[#49BBBD] md:bg-[transparent] flex flex-col md:flex-row gap-[1.2rem] lg:gap-[3rem] z-10 after:content-['*'] after:absolute after:-inset-1 after:block after:bg-[#8d8d8d47] after:w-[126%] md:after:w-0 after:top-0 after:h-[100%] md:after:h-0 after:-z-10  duration-300  ${
           active ? "left-[-50rem] md:left-0" : "left-0 md:left-0"
         }`}
       >

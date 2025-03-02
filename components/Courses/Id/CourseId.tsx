@@ -63,31 +63,31 @@ const CourseId = () => {
               </div>
               <div className="items-center w-full mt-[2rem] sm:mt-[0] sm:w-[70%]">
                 <div className="flex gap-[1rem] xl:gap-[3rem] items-center w-[100%] ">
-                  <p className="text-[#00000071]">5 Stars</p>
+                  <p className="text-[#393939]">5 Stars</p>
                   <div className="w-[76%] h-[0.5rem] bg-[#0000004b] rounded-md">
                     <div className="bg-[#49BBBD] w-[70%] h-[100%] rounded-s-lg"></div>
                   </div>
                 </div>
                 <div className="flex gap-[1rem] xl:gap-[3rem]  items-center ">
-                  <p className="text-[#00000071]">4 Stars</p>
+                  <p className="text-[#393939]">4 Stars</p>
                   <div className="w-[76%] h-[0.5rem] bg-[#0000004b] rounded-md">
                     <div className="bg-[#49BBBD] w-[70%] h-[100%] rounded-s-lg"></div>
                   </div>
                 </div>
                 <div className="flex gap-[1rem] xl:gap-[3rem] items-center">
-                  <p className="text-[#00000071]">3 Stars</p>
+                  <p className="text-[#393939]">3 Stars</p>
                   <div className="w-[76%] h-[0.5rem] bg-[#0000004b] rounded-md">
                     <div className="bg-[#49BBBD] w-[70%] h-[100%] rounded-s-lg"></div>
                   </div>
                 </div>
                 <div className="flex gap-[1rem] xl:gap-[3rem] items-center">
-                  <p className="text-[#00000071]">2 Stars</p>
+                  <p className="text-[#393939]">2 Stars</p>
                   <div className="w-[76%] h-[0.5rem] bg-[#0000004b] rounded-md">
                     <div className="bg-[#49BBBD] w-[70%] h-[100%] rounded-s-lg"></div>
                   </div>
                 </div>
                 <div className="flex gap-[1rem] xl:gap-[3rem] items-center">
-                  <p className="text-[#00000071]">1 Stars</p>
+                  <p className="text-[#393939]">1 Stars</p>
                   <div className="w-[76%] h-[0.5rem] bg-[#0000004b] rounded-md">
                     <div className="bg-[#49BBBD] w-[70%] h-[100%] rounded-s-lg"></div>
                   </div>
@@ -104,11 +104,11 @@ const CourseId = () => {
                   </div>
                 </div>
                 <div className="flex items-center gap-1">
-                  <FaRegClock className="text-[#00000071]" />
-                  <p className="text-[#00000071]">3 Month</p>
+                  <FaRegClock className="text-[#393939]" />
+                  <p className="text-[#393939]">3 Month</p>
                 </div>
               </div>
-              <p className="text-[#00000071]">
+              <p className="text-[#393939]">
                 Class, launched less than a year ago by Blackboard co-founder
                 Michael Chasen, integrates exclusively...
               </p>
@@ -122,11 +122,11 @@ const CourseId = () => {
                   </div>
                 </div>
                 <div className="flex items-center gap-1">
-                  <FaRegClock className="text-[#00000071]" />
-                  <p className="text-[#00000071]">3 Month</p>
+                  <FaRegClock className="text-[#393939]" />
+                  <p className="text-[#393939]">3 Month</p>
                 </div>
               </div>
-              <p className="text-[#00000071]">
+              <p className="text-[#393939]">
                 Class, launched less than a year ago by Blackboard co-founder
                 Michael Chasen, integrates exclusively...
               </p>
@@ -138,10 +138,10 @@ const CourseId = () => {
             <Image src={`${item?.image}`} width={100} height={100} alt="Image" className="w-full"></Image>
             <div className="flex md:flex-col lg:flex-row items-center gap-5">
               <span className="font-medium text-[1.8rem]">$49.65</span>
-              <span className="text-[#00000082]">
+              <span className="text-[#393939]">
                 <s>$99.99</s>
               </span>
-              <span className="text-[#00000082]">50% Off</span>
+              <span className="text-[#393939]">50% Off</span>
             </div>
             <p className="text-center text-[#49BBBD]">
               {item?.title}
@@ -160,21 +160,21 @@ const CourseId = () => {
               <div className="flex flex-col gap-1">
                 <div className="flex gap-1 text-[0.7rem] items-center">
                   <FaSun className="text-[#49BBBD]" />
-                  <p className="text-[#00000082]">Money Back Guarantee</p>
+                  <p className="text-[#393939]">Money Back Guarantee</p>
                 </div>
                 <div className="flex gap-1 text-[0.7rem] items-center">
                   <FaCamera className="text-[#49BBBD]" />
-                  <p className="text-[#00000082]">Access on all devices</p>
+                  <p className="text-[#393939]">Access on all devices</p>
                 </div>
                 <div className="flex gap-1 text-[0.7rem] items-center">
                   <FaFileAlt className="text-[#49BBBD]" />
-                  <p className="text-[#00000082]">
+                  <p className="text-[#393939]">
                     Certification of completion
                   </p>
                 </div>
                 <div className="flex gap-1 text-[0.7rem] items-center">
                   <FaChartBar className="text-[#49BBBD]" />
-                  <p className="text-[#00000082]">32 Moduls</p>
+                  <p className="text-[#393939]">32 Moduls</p>
                 </div>
               </div>
             </div>
@@ -183,7 +183,7 @@ const CourseId = () => {
               <h2 className="font-medium text-[1.2rem]">
                 Training 5 or more people
               </h2>
-              <p className="text-[0.7rem] text-[#00000082]">
+              <p className="text-[0.7rem] text-[#393939]">
                 Class, launched less than a year ago by Blackboard co-founder
                 Michael Chasen, integrates exclusively...
               </p>
