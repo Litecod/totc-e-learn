@@ -41,8 +41,8 @@ const CloudSoftware = () => {
       </div>
       <div className="mt-[5rem] md:mt-[7rem] flex flex-col md:flex-row justify-between w-[100%] md:w-auto md:max-w-[80rem] mx-auto">
 
-        <div className="items-center py-[3rem] rounded-lg bg-[#ffff] shadow-md shadow-[#0000001a] w-[100%] md:w-auto md:max-w-[20rem] p-[0.2rem] lg:p-[1rem]">
-          <div className="bg-[#5B72EE] p-[1rem] w-[4rem] rounded-full h-[4rem] z-10 mx-auto mt-[-5rem] items-center">
+        <div className="items-center py-[2rem] md:p-[3rem] rounded-lg md:bg-[#fff] shadow-sm shadow-[#00000034] md:shadow-[#00000018] w-[100%] md:w-auto md:max-w-[20rem] p-[0.2rem] lg:p-[1rem]">
+          <div className="bg-[#5B72EE] p-[1rem] w-[4rem] rounded-full h-[4rem] z-10 mx-auto mt-[-4rem] items-center">
             <FaFileInvoice className="text-[2rem] text-center text-[#ffff]" />
           </div>
           <div className="mt-[2rem]">
@@ -55,8 +55,8 @@ const CloudSoftware = () => {
             </p>
           </div>
         </div>
-        <div className="items-center py-[3rem] rounded-lg bg-[#ffff] shadow-md shadow-[#0000001a] w-[100%] md:w-auto md:max-w-[20rem] p-[0.2rem] lg:p-[1rem] mt-[3rem] md:mt-0">
-          <div className="bg-[#00CBB8] p-[1rem] w-[4rem] rounded-full h-[4rem] z-10 mx-auto mt-[-5rem] items-center">
+        <div className="items-center py-[2rem] md:p-[3rem] rounded-lg md:bg-[#fff] shadow-sm shadow-[#00000034] md:shadow-[#00000018] w-[100%] md:w-auto md:max-w-[20rem] p-[0.2rem] lg:p-[1rem] mt-[3rem] md:mt-0">
+          <div className="bg-[#00CBB8] p-[1rem] w-[4rem] rounded-full h-[4rem] z-10 mx-auto mt-[-4rem] items-center">
             <FaCalendarAlt className="text-[2rem] text-center text-[#ffff]" />
           </div>
           <div className="mt-[2rem]">
@@ -69,8 +69,8 @@ const CloudSoftware = () => {
             </p>
           </div>
         </div>
-        <div className="items-center py-[3rem] rounded-lg bg-[#ffff] shadow-md shadow-[#0000001a] w-[100%] md:w-auto md:max-w-[20rem] p-[0.2rem] lg:p-[1rem] mt-[3rem] md:mt-0">
-          <div className="bg-[#29B9E7] p-[1rem] w-[4rem] rounded-full h-[4rem] z-10 mx-auto mt-[-5rem] items-center">
+        <div className="items-center py-[2rem] md:p-[3rem] rounded-lg md:bg-[#fff] shadow-sm shadow-[#00000034] md:shadow-[#00000018] w-[100%] md:w-auto md:max-w-[20rem] p-[0.2rem] lg:p-[1rem] mt-[3rem] md:mt-0">
+          <div className="bg-[#29B9E7] p-[1rem] w-[4rem] rounded-full h-[4rem] z-10 mx-auto mt-[-4rem] items-center">
             <MdGroups2 className="text-[2rem] text-center text-[#ffff]" />
           </div>
           <div className="mt-[2rem]">

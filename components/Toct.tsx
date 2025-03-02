@@ -46,7 +46,7 @@ const Toct = () => {
           provide students with feedback all in one place.
         </h5>
       </div>
-      <div className=" mt-[3rem] md:mt-[5rem] flex flex-col md:flex-row justify-between max-w-[70rem] mx-auto">
+      <div className=" mt-[3rem] md:mt-[5rem] flex flex-col md:flex-row justify-between gap-[2rem] max-w-[70rem] mx-auto">
         <motion.div
           ref={ref}
           variants={{
@@ -80,7 +80,7 @@ const Toct = () => {
           }}
           initial="hidden"
           animate={mainControl}
-          transition={{ duration: 2.5, type: "spring" }} className="relative w-full md:w-[25rem] lg:w-[30rem]  mt-5 md:mt-0">
+          transition={{ duration: 2.5, type: "spring" }} className="relative w-full md:w-[25rem] lg:w-[30rem] md:mt-0">
           <Image src={student} alt="An Instructor" className="w-[100%]" />
           <div className="absolute flex flex-col gap-2 w-[100%] h-[100%] top-0 left-0 bg-[#0000001b] rounded-2xl">
             <div className="text-center justify-center my-auto">

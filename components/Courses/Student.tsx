@@ -15,10 +15,10 @@ const Student = () => {
     { id: 4, image: imgfour },
   ];
   return (
-    <div className="bg-[#9dccff50] w-full mx-auto px-[0.8rem] sm:px-[3rem] lg:px-[5rem] py-[2rem] md:py-[4rem] pt-[2rem] md:pt-[3rem] md:pb-[3rem] ">
+    <div className="bg-[#9dccff50] w-full mx-auto px-[0.8rem] sm:px-[3rem] lg:px-[5rem] py-[2rem] md:py-[4rem] pt-[2rem] md:pt-[3rem] md:pb-[3rem]">
       <div className=" flex justify-between mb-[1.5rem] items-center">
-        <h1 className="font-medium text-[1.5rem] text-[#000]">Student are viewing</h1>
-        <h4 className="text-[#49BBBD] texe-[0.9rem]">See all</h4>
+        <h1 className="font-medium text-[1.2rem] sm:text-[1.3rem] md:text-[1.5rem]">Student are viewing</h1>
+        <h4 className="text-[#49BBBD] text-[0.9rem]">See all</h4>
       </div>
       <div className="flex flex-col md:flex-row justify-between gap-5 md:gap-0">
         {mark.map((item) => {

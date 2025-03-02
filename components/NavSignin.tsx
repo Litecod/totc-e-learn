@@ -15,10 +15,10 @@ const NavSignin = () => {
     { id: 2, name: "Signin", src: "/signin" },
   ];
   return (
-    <div className="w-[22rem] mx-auto mt-[2rem]">
+    <div className="w-[18rem] sm:w-[22rem] mx-auto mt-[2rem]">
       <ul className="w-[100%] bg-[#49BBBD99]  rounded-[15rem] flex justify-between relative py-[0.3rem] px-[1rem]">
 
-        <div className={`w-[45%] h-[70%] top-[0.6rem] bg-[#49BBBD] absolute rounded-[15rem] z-0 duration-500 ${active ? "left-[0.6rem]" : "left-[11.3rem]"}` }></div>
+        <div className={`w-[45%] h-[70%] top-[0.6rem] bg-[#49BBBD] absolute rounded-[15rem] z-0 duration-500 ${active ? "left-[0.6rem]" : "left-[9rem] sm:left-[11.3rem]"}` }></div>
         {navs.map((nav) => {
           return (
             <Link

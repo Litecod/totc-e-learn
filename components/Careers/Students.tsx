@@ -20,7 +20,7 @@ const Students = () => {
         { id: 7 },
     ]
     return (
-        <div className='relative w-full mx-auto px-[0.8rem] sm:px-[3rem] lg:px-[5rem] py-[2rem] md:py-[4rem] pt-[3rem] pb-[10rem] md:pb-[17rem] bg-[#9dccff96] -z-10'>
+        <div className='relative w-full mx-auto px-[0.8rem] sm:px-[3rem] lg:px-[5rem] py-[2rem] md:py-[4rem] pt-[3rem] pb-[10rem] md:pb-[17rem] bg-[#9dccff96] z-10'>
             <h1 className="text-[2rem] mb-[2rem]">What our students have to say</h1>
 
             <Swiper {...sliderSettings}>

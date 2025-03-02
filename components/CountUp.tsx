@@ -5,7 +5,7 @@ const CountUps = () => {
   return (
     <div className="px-[0.8rem] sm:px-[3rem] lg:px-[5rem] mt-[5rem] md:mt-[10rem] ">
       <div className="text-center flex flex-col gap-[-0.8rem] md:gap-[1rem] ">
-        <h1 className="text-[2.5rem] md:text-[3rem] font-medium text-[#000]">
+        <h1 className="text-[1.8rem] sm:text-[2.5rem] md:text-[3rem] font-medium text-[#000]">
           Our Success
         </h1>
         <h5 className="md:w-[70%] lg:w-[50%] mx-auto text-[0.7rem] md:text-[1rem] text-[#393939]">

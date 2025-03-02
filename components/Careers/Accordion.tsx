@@ -27,10 +27,10 @@ const Accordion = () => {
     };
     console.log(accordion);
     return (
-        <div className="w-full mx-auto px-[0.8rem] sm:px-[3rem] lg:px-[5rem] py-[2rem] md:py-[4rem] pt-[2rem] md:pt-[3rem] md:pb-[3rem] mb-[5rem]">
+        <div className="w-full mx-auto px-[0.8rem] sm:px-[3rem] lg:px-[5rem] py-[2rem] md:py-[4rem] pt-[2rem] md:pt-[3rem] md:pb-[3rem] md:mb-[5rem]">
             <div className="flex flex-col gap-[2rem] mt-[5rem]">
             {list.map((item, index) => (
-                <div key={index} className={  accordion === item.id ? "shadow-sm shadow-[#00000022]" : "shadow-sm shadow-[#00000022] h-[5rem] md:h-auto"} onClick={() => handleAccordion(item.id)}>
+                <div key={index} className={  accordion === item.id ? "shadow-sm shadow-[#00000022] p-[0.7rem]" : "shadow-sm shadow-[#00000022] h-[3rem] md:h-auto p-[0.7rem]"} onClick={() => handleAccordion(item.id)}>
                     <div className=" flex justify-between" >
                         <p>{item.title}</p>
                         {accordion === item.id ? <FaArrowUp /> : <FaArrowDown />}

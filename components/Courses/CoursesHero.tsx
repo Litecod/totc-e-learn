@@ -18,10 +18,10 @@ const CoursesHero = () => {
   return (
     <div className="bg-[#9dccff50] w-full mx-auto px-[0.8rem] sm:px-[3rem] lg:px-[5rem] py-[2rem] md:py-[4rem] pt-[2rem] md:pt-[3rem] md:pb-[3rem] ">
       <div className="flex gap-4 md:gap-0 sm:justify-between mb-[1.5rem] items-center">
-        <h1 className="font-medium sm:text-[1.5rem]">
+        <h1 className="font-medium text-[1.2rem] sm:text-[1.3rem] md:text-[1.5rem]">
           Welcome back, ready for your next lesson?
         </h1>
-        <h4 className="text-[#49BBBD] texe-[0.9rem]">View History</h4>
+        <h4 className="text-[#49BBBD] text-[0.9rem]">View History</h4>
       </div>
 
       <Swiper {...sliderSettings} className="relative">

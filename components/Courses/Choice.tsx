@@ -12,7 +12,7 @@ import {
   
     return (
       <div className="w-full mx-auto px-[0.8rem] sm:px-[3rem] lg:px-[5rem] py-[2rem] md:py-[4rem] pt-[2rem] md:pt-[3rem] md:pb-[3rem] ">
-        <h1 className="text-[1.5rem] font-medium text-center md:text-left text-[#000]">Choice favourite course from top category </h1>
+        <h1 className="font-medium text-[1.2rem] sm:text-[1.3rem] md:text-[1.5rem]">Choice favourite course from top category </h1>
         <div className="mt-[3rem] flex flex-col md:flex-row md:flex-wrap justify-between gap-5 md:gap-10">
           <div className="p-[1rem] w-full md:w-[17rem] shadow-sm shadow-[#00000034] flex flex-col gap-4 text-center rounded-xl">
             <div className="p-[1rem] max-w-[3.5rem] bg-[#49BBBD4D] rounded-sm mx-auto">
