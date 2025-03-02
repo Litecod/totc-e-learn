@@ -13,9 +13,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className="max-w-[1550px] xl:mx-auto"
+      <body className="max-w-[1550px] xl:mx-auto bg-[#fff]"
       >
-        <div>{children}</div>
+        <div className="bg-[#fff]">{children}</div>
       </body>
     </html>
   );
