@@ -28,7 +28,7 @@ const Recommended = () => {
   return (
     <div className="bg-[#9dccff50] w-full mx-auto px-[0.8rem] sm:px-[3rem] lg:px-[5rem] py-[2rem] md:py-[4rem] pt-[2rem] md:pt-[3rem] md:pb-[3rem] ">
       <div className=" flex justify-between mb-[1.5rem] items-center">
-        <h1 className="font-medium text-[1.5rem]">Recommended for you</h1>
+        <h1 className="font-medium text-[1.5rem] text-[#000]">Recommended for you</h1>
         <h4 className="text-[#49BBBD] texe-[0.9rem]">See all</h4>
       </div>
       <Swiper {...sliderSettings}>
@@ -53,7 +53,7 @@ const Recommended = () => {
                     </span>
                   </div>
                 </div>
-                <h3 className="text-[1.3rem] md:text-[1rem] lg:text-[1.3rem] font-medium">
+                <h3 className=" text-[#000] text-[1.3rem] md:text-[1rem] lg:text-[1.3rem] font-medium">
                   AWS Certified solutions Architect
                 </h3>
                 <p className="text-[#393939] md:text-[0.7rem] lg:text-[1rem]">

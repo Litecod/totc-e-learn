@@ -6,7 +6,7 @@ import { FaEyeSlash } from "react-icons/fa";
 
 const page = () => {
   return (
-    <div className="flex justify-betwen md:p-[2rem] gap-[2rem]">
+    <div className="flex justify-betwen md:p-[2rem] gap-[2rem] text-[#000]">
       <Image
         src={img}
         alt=""

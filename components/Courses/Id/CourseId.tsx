@@ -54,12 +54,12 @@ const CourseId = () => {
           </div>
           <div className=" p-[2rem] bg-[#9DCCFF4D] rounded-2xl mt-[2rem]">
             <div className="flex flex-col sm:flex-row justify-between">
-              <div className=" bg-[#ffff] p-[1.5rem] rounded-xl flex flex-col gap-1 items-center">
+              <div className=" bg-[rgb(255,255,255)] p-[1.5rem] rounded-xl flex flex-col gap-1 items-center">
                 <h1 className="text-[1.5rem] font-medium text-[#000000bb]">
                   4 Out of 5
                 </h1>
                 <Image src={star} alt="" className="w-[6rem]" />
-                <p>Top Raiting</p>
+                <p className="text-[#000]">Top Raiting</p>
               </div>
               <div className="items-center w-full mt-[2rem] sm:mt-[0] sm:w-[70%]">
                 <div className="flex gap-[1rem] xl:gap-[3rem] items-center w-[100%] ">
@@ -118,7 +118,7 @@ const CourseId = () => {
                 <div className="flex">
                   <Image src={mark} alt="" />
                   <div className="">
-                    <p className="font-medium">Lina</p>
+                    <p className="font-medium text-[#000]">Lina</p>
                   </div>
                 </div>
                 <div className="flex items-center gap-1">
@@ -137,7 +137,7 @@ const CourseId = () => {
           <div className=" flex flex-col gap-[1.8rem]">
             <Image src={`${item?.image}`} width={100} height={100} alt="Image" className="w-full"></Image>
             <div className="flex md:flex-col lg:flex-row items-center gap-5">
-              <span className="font-medium text-[1.8rem]">$49.65</span>
+              <span className="font-medium text-[1.8rem] text-[#000]">$49.65</span>
               <span className="text-[#393939]">
                 <s>$99.99</s>
               </span>
@@ -154,7 +154,7 @@ const CourseId = () => {
             </Link>
             <hr className="border-[#000]" />
             <div className="flex flex-col gap-2">
-              <h2 className="font-medium text-[1.2rem]">
+              <h2 className="font-medium text-[1.2rem] text-[#000]">
                 This Course included
               </h2>
               <div className="flex flex-col gap-1">
@@ -180,7 +180,7 @@ const CourseId = () => {
             </div>
             <hr className="border-[#000]" />
             <div className="">
-              <h2 className="font-medium text-[1.2rem]">
+              <h2 className="font-medium text-[1.2rem] text-[#000]">
                 Training 5 or more people
               </h2>
               <p className="text-[0.7rem] text-[#393939]">
@@ -189,7 +189,7 @@ const CourseId = () => {
               </p>
             </div>
             <hr className="border-[#000]" />
-            <h2 className="font-medium text-[1.2rem]">Share this course</h2>
+            <h2 className="font-medium text-[1.2rem] text-[#000]">Share this course</h2>
             <div className="flex gap-4 md:gap-0 md:justify-between lg:justify-start lg:gap-4">
               <FaFacebook />
               <FaFacebook />

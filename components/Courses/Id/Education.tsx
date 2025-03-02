@@ -8,7 +8,7 @@ const Education = () => {
         { id: 3 },
     ];
     return (
-        <div className="bg-[#9dccff50] w-full mx-auto px-[0.8rem] sm:px-[3rem] lg:px-[5rem] py-[2rem] md:py-[4rem] pt-[2rem] md:pt-[3rem] md:pb-[3rem] ">
+        <div className="bg-[#9dccff50] text-[#000] w-full mx-auto px-[0.8rem] sm:px-[3rem] lg:px-[5rem] py-[2rem] md:py-[4rem] pt-[2rem] md:pt-[3rem] md:pb-[3rem] ">
             <div className=" flex justify-between mb-[1.5rem] items-center">
                 <h1 className="font-medium text-[1.5rem]">Top  Education offers and deals are listed here</h1>
                 <h4 className="text-[#49BBBD] texe-[0.9rem]">See all</h4>

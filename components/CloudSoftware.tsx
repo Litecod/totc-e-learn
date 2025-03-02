@@ -49,7 +49,7 @@ const CloudSoftware = () => {
             <h2 className="text-center mt-[1rem] font-bold text-[1.5rem] text-[#2F327D]">
               Online Billing, Invoicing, & Contracts
             </h2>
-            <p className="w-[70%] md:w-[75%] mx-auto text-center text-[0.8rem] items-center mt-4">
+            <p className="w-[70%] md:w-[75%] mx-auto text-center text-[0.8rem] items-center mt-4 text-[#393939]">
               Simple and secure control of your organization’s financial and
               legal transactions. Send customized invoices and contracts
             </p>
@@ -63,7 +63,7 @@ const CloudSoftware = () => {
             <h2 className="text-center mt-[1rem] font-bold text-[1.5rem] text-[#2F327D]">
               Online Billing, Invoicing, & Contracts
             </h2>
-            <p className="w-[70%] md:w-[75%] mx-auto text-center text-[0.8rem] items-center mt-4">
+            <p className="w-[70%] md:w-[75%] mx-auto text-center text-[0.8rem] items-center mt-4 text-[#393939]">
               Simple and secure control of your organization’s financial and
               legal transactions. Send customized invoices and contracts
             </p>
@@ -77,7 +77,7 @@ const CloudSoftware = () => {
             <h2 className="text-center mt-[1rem] font-bold text-[1.5rem] text-[#2F327D]">
               Online Billing, Invoicing, & Contracts
             </h2>
-            <p className="w-[70%] md:w-[75%] mx-auto text-center text-[0.8rem] items-center mt-4">
+            <p className="w-[70%] md:w-[75%] mx-auto text-center text-[0.8rem] items-center mt-4 text-[#393939]">
               Simple and secure control of your organization’s financial and
               legal transactions. Send customized invoices and contracts
             </p>

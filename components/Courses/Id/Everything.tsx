@@ -5,7 +5,7 @@ import student from "@/public/images/student.png";
 
 const Everthing = () => {
   return (
-    <div className="relative mt-[5rem] md:mt-[10rem] mb-[5rem] md:mb-[10rem] flex flex-col md:flex-row justify-between items-center max-w-[75rem] mx-auto px-[0.8rem] sm:px-[3rem] md:px-[3rem] lg:px-0">
+    <div className=" text-[#000] relative mt-[5rem] md:mt-[10rem] mb-[5rem] md:mb-[10rem] flex flex-col md:flex-row justify-between items-center max-w-[75rem] mx-auto px-[0.8rem] sm:px-[3rem] md:px-[3rem] lg:px-0">
         <div className="w-full md:w-[50%] flex flex-col gap-4 mt-[rem] relative text-center md:text-left">
         
           <h1 className="text-[1.5rem] md:text-[1.2rem] lg:text-[1.7rem] font-medium text-[#2F327D] max-w-[34rem] ">
