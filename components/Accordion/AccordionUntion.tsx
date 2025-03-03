@@ -50,6 +50,7 @@ const AccordionUnction = () => {
                   ? "rotate-0 duration-150 w-full md:w-[20rem] md:ml-[-4rem] "
                   : "bg-[#81ff81] py-[0.5rem] w-full md:w-[16rem] rounded-xl md:rotate-[76deg] duration-150 mt-[1rem] md:mt-[5rem] md:ml-[-5rem] mb-[1rem] md:mb-[5rem] "
               }
+              
             >
               <div
                 key={index}
