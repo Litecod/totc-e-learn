@@ -9,7 +9,7 @@ import { FaEyeSlash } from "react-icons/fa";
 import { IoIosCheckmarkCircle } from "react-icons/io";
 
 
-const page = () => {
+const Page = () => {
 
   const router = useRouter()
 
@@ -20,7 +20,7 @@ const page = () => {
 
     setMessage("Login Sucessfull")
     setTimeout(() => {
-      router.push("/"); // Redirect to dashboard page
+      router.push("/"); // Redirect to dashboard Page
     }, 500);
 
     setDisplay((prev) => !prev);
@@ -83,4 +83,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Page;
